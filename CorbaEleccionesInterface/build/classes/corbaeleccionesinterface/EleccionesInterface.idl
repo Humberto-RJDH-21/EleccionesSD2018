@@ -1,0 +1,13 @@
+
+module Elecciones{ 
+    
+    interface Votos{ 
+        
+        boolean votar(in string matriculaVotante, in string candidato);
+
+        boolean verificarMatricula(in string matricula);
+        
+        long obtenerResultados(in string candidato);
+        
+    }; 
+};
